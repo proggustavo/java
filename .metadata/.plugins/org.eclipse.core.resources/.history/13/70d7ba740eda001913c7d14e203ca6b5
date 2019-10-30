@@ -1,0 +1,59 @@
+package lista_Construtores;
+
+public class Ferramenta_Eletrica {
+
+	private String modelo;
+	private String fabricante;
+	private int rpm;
+	private int potencia;
+	private int tensao;
+	
+	
+	
+	
+
+	public String getModelo() {
+		return modelo;
+	}
+
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+
+	public String getFabricante() {
+		return fabricante;
+	}
+
+	public void setFabricante(String fabricante) {
+		this.fabricante = fabricante;
+	}
+
+	public int getRpm() {
+		return rpm;
+	}
+
+	public void setRpm(int rpm) {
+		this.rpm = rpm;
+	}
+
+	public int getPotencia() {
+		return potencia;
+	}
+
+	public void setPotencia(int potencia) {
+		this.potencia = potencia;
+	}
+
+	public int getTensao() {
+		return tensao;
+	}
+
+	public void setTensao(int tensao) {
+		this.tensao = tensao;
+	}
+	
+	
+	
+	
+
+}

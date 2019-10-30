@@ -1,0 +1,30 @@
+package lista_Construtores;
+
+public class Furadeira {
+	
+	private String modelo;
+	private String fabricante;
+	private int rpm;
+	private int potencia;
+	private int tensao;
+	
+	public Furadeira(String modelo, String fabricante, int rpm, int potencia, int tensao) {
+		super();
+		this.modelo = modelo;
+		this.fabricante = fabricante;
+		this.rpm = rpm;
+		this.potencia = potencia;
+		this.tensao = tensao;
+	}
+	
+	
+	public Furadeira() {
+		super();
+	}
+	
+	
+	
+	
+	
+
+}

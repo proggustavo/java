@@ -1,0 +1,19 @@
+package biblioteca;
+
+public class Livro extends Obra{
+
+
+	public Livro(String titulo, int edicao, int ano, Autor escritor) {
+		super(titulo, edicao, ano, escritor);
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public Livro() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+		
+	
+
+}

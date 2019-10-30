@@ -1,0 +1,12 @@
+package lista_Construtores;
+
+public class Martelo extends Ferramenta_Manual{
+	
+	
+		
+	public Martelo() {
+		super();
+	}
+	
+
+}

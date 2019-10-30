@@ -1,0 +1,16 @@
+package biblioteca;
+
+public class Biblioteca {
+	private String nome;
+	private Endereco enderecoBiblioteca;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

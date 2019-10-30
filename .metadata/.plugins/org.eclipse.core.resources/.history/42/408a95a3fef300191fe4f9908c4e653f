@@ -1,0 +1,45 @@
+package lista_polimorfismo;
+
+public class FormaGeometrica {
+	
+	
+	private String nome;
+	
+	
+	public FormaGeometrica(double lado, String nome) {
+		super();
+		this.lado = lado;
+		this.nome = nome;
+	}
+	public FormaGeometrica() {
+		super();
+	}
+	
+	public double getLado() {
+		return lado;
+	}
+	public void setLado(double lado) {
+		this.lado = lado;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	
+	public double calcArea(double lado) {
+		return  lado * 4;
+	}
+	
+	public double perimetro(double lado) {
+		return  lado * 4;
+	
+	}
+	
+	
+	
+	
+
+}

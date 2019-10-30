@@ -1,0 +1,28 @@
+package lista_Construtores;
+
+public class Serrote {
+	
+	
+	private String modelo;
+	private String fabricante;
+	private String tipo;
+	private double tamanho;
+	private double qtddentes;
+	
+	public Serrote(String modelo, String fabricante, String tipo, double tamanho, double qtddentes) {
+		super();
+		this.modelo = modelo;
+		this.fabricante = fabricante;
+		this.tipo = tipo;
+		this.tamanho = tamanho;
+		this.qtddentes = qtddentes;
+	}
+	
+	public Serrote() {	
+		super();
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,22 @@
+package lista_Construtores;
+
+public class Ferramenta {
+	
+	
+	private String modelo;
+	private String fabricante;
+	
+	public Ferramenta(String modelo, String fabricante) {
+		super();
+		this.modelo = modelo;
+		this.fabricante = fabricante;
+	}
+	
+	public Ferramenta(){
+		super();
+	}
+	
+	
+	
+
+}

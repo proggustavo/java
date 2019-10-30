@@ -1,0 +1,16 @@
+package lista_polimorfismo;
+
+public abstract class Losango extends FormaGeometrica {
+	
+	private double ladoA;
+	private double ladoB;
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

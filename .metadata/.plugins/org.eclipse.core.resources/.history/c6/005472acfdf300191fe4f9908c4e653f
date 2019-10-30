@@ -1,0 +1,11 @@
+package lista_polimorfismo;
+
+public class FormaGeometrica {
+	
+	private double lado;
+	private String nome;
+	
+	
+	
+
+}

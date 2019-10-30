@@ -1,0 +1,62 @@
+package lista_Construtores;
+
+public class Ferramenta_Eletrica extends Ferramenta {
+
+	
+	private int rpm;
+	private int potencia;
+	private int tensao;
+	
+	
+	public Ferramenta_Eletrica(String modelo, String fabricante, double peso, double desgaste, int rpm, int potencia,
+			int tensao) {
+		super(modelo, fabricante, peso, desgaste);
+		this.rpm = rpm;
+		this.potencia = potencia;
+		this.tensao = tensao;
+	}
+
+	public Ferramenta_Eletrica() {
+		super();
+	}
+
+	public int getRpm() {
+		return rpm;
+	}
+
+	public void setRpm(int rpm) {
+		this.rpm = rpm;
+	}
+
+	public int getPotencia() {
+		return potencia;
+	}
+
+	public void setPotencia(int potencia) {
+		this.potencia = potencia;
+	}
+
+	public int getTensao() {
+		return tensao;
+	}
+
+	public void setTensao(int tensao) {
+		this.tensao = tensao;
+	}
+	public double CalculaConsumo(int tempoDeConsumo) {
+		return this.getTensao() * tempoDeConsumo;
+	}
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+
+}

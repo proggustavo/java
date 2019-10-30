@@ -1,0 +1,8 @@
+package biblioteca;
+
+public class Biblioteca {
+	private String nome;
+	private Obra[] obras;
+	
+	
+}

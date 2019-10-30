@@ -1,0 +1,19 @@
+package lista_polimorfismo;
+
+public class Triangulo extends FormaGeometrica {
+
+	@Override
+	public double calcArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double calcPerimetro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+		
+	
+}

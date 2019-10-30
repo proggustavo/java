@@ -1,0 +1,37 @@
+package lista_polimorfismo;
+
+import java.util.Random;
+
+public class Executavel {
+
+	public static void main(String[] args) {
+		
+		Random valor = new Random();
+		
+		// não consigo instanciar objeto de classe abstrata
+		// mas um array é possível 
+		
+		
+		FormaGeometrica[] formas = new FormaGeometrica[7];
+		
+		for(int i = 0; i < formas.length; i ++) {
+			int tipo = valor.nextInt(4);
+			
+			switch(tipo) {
+				case 0: {
+					Quadrado quadrado = new Quadrado("Quadrado", valor.nextInt(9) + 1);
+					formas[i] = quadrado;
+					break;
+				}
+				case 1: {
+					Circulo circulo = new Circulo("Circulo", valor.nextDouble(9) + 1)
+				}
+			}
+			
+		}
+		
+		
+		
+	}
+
+}

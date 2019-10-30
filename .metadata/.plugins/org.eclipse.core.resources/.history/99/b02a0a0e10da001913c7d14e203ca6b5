@@ -1,0 +1,29 @@
+package lista_Construtores;
+
+public class Ferramenta {
+	
+	
+	private String modelo;
+	private String fabricante;
+	private double peso;
+	private double desgaste;
+	
+	public Ferramenta(String modelo, String fabricante, double peso, double desgaste) {
+		super();
+		this.modelo = modelo;
+		this.fabricante = fabricante;
+		this.peso = peso;
+		this.desgaste = desgaste;
+	}
+	public Ferramenta() {
+		super();
+	}
+
+	
+	
+	
+	
+	
+	
+
+}

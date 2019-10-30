@@ -1,0 +1,19 @@
+package lista_Construtores;
+
+public class Serrote extends Ferramenta_Manual{
+	
+
+	private double qtddentes;
+	
+	
+
+
+
+	public Serrote() {	
+		super();
+	}
+	
+	
+	
+
+}

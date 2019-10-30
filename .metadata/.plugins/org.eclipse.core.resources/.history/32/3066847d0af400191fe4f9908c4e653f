@@ -1,0 +1,10 @@
+package lista_polimorfismo;
+
+public class TrianguloRetangulo extends Triangulo{
+	
+	private double base;
+	private double altura;
+	
+	
+	
+}

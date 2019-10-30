@@ -1,0 +1,40 @@
+package lista_Construtores;
+
+public class OficinaExecutavel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		// Ferramenta elétrica ( modelo - fabricante - peso - desgaste - rpm - potencia - volts)
+		
+        Furadeira f1 = new Furadeira("Bosch", "Bosch", 1, 2, 3000, 351, 220);
+        Lixadeira l1 = new Lixadeira("Treme-treme", "Bosch", 1.5, 3, 0, 200, 110);
+        Serra s1 = new Serra("Titan", "Bosch", 1, 1, 12200, 1500, 220);
+        
+        // manual  (modelo - fabricante - peso -desgaste - tipo -tamanho)
+        
+        Alicate a1 = new Alicate("Droca SDS", "Vonder", 0.454, 0.5, "Corte", 43);
+        Alicate a2 = new Alicate("Droca SDS", "Vonder", 0.454, 0.5, "Bico", 31); // polegadas
+        
+		Martelo m1 = new Martelo("Madeira", "Tramontina", 0.633, 0.5, "Básico", 1200);
+		Martelo m2 = new Martelo("Fibra", "Vonder", 0.454, 0.5, "Básico", 1500); // milimetros
+		
+		Serrote serrote1 = new Serrote("IW2119", "IRWIN", 0.572, 0.9, "Profissional", 20, 140); // polegadas
+		
+		
+		System.out.println("-----------------------------");
+		
+		System.out.println("O consumo da oficina  ");
+		System.out.println("Furadeira 3 horas por dia: " + f1.CalculaConsumo(3));
+		System.out.println("Lixadeira 2 horas por dia: " + l1.CalculaConsumo(2));
+		System.out.println("Serra 4 horas por dia: " + s1.CalculaConsumo(4));
+		System.out.println("Total semanal: " + (f1.CalculaConsumo(3) + l1.CalculaConsumo(2) + s1.CalculaConsumo(4)) * 7);
+		System.out.println("O Total mensal é: " + ((f1.CalculaConsumo(3) + l1.CalculaConsumo(2) + s1.CalculaConsumo(4)) * 7) * 30);
+		
+		
+		
+		System.out.println("A vida útil da furadeira é: " + f1.CalculaVida());
+	}
+
+}

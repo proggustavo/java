@@ -1,0 +1,10 @@
+package lista_Construtores;
+
+public class Ferramenta_Manual extends Ferramenta{
+	
+	private String tipo;
+	private int tamanho;
+	
+	
+
+}

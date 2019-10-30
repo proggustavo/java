@@ -1,0 +1,10 @@
+package biblioteca;
+
+public class Autor {
+	
+	private String nome;
+	private int idade;
+	
+	Endereco endereco = new Endereco();
+
+}

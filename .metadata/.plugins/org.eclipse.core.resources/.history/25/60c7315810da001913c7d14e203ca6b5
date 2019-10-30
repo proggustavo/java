@@ -1,0 +1,7 @@
+package lista_Construtores;
+
+public class Alicate extends Ferramenta_Manual{
+	
+	
+
+}

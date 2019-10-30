@@ -1,0 +1,21 @@
+package lista_Construtores;
+
+public class Ferramenta_Eletrica extends Ferramenta {
+
+	
+	private int rpm;
+	private int potencia;
+	private int tensao;
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+
+}

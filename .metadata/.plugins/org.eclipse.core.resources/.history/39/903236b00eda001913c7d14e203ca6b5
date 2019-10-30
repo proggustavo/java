@@ -1,0 +1,25 @@
+package lista_Construtores;
+
+public class Lixadeira {
+	
+	
+	private String modelo;
+	private String fabricante;
+	private int rpm;
+	private int potencia;
+	private int tensao;
+	
+	public Lixadeira(String modelo, String fabricante, int rpm, int potencia, int tensao) {
+		super();
+		this.modelo = modelo;
+		this.fabricante = fabricante;
+		this.rpm = rpm;
+		this.potencia = potencia;
+		this.tensao = tensao;
+	}
+	
+	public Lixadeira() {
+		super();
+	}
+	
+}

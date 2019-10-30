@@ -1,0 +1,15 @@
+package biblioteca;
+
+public class Obra {
+	
+	private String titulo;
+	private int edicao;
+	private int ano;
+	private Autor escritor;
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,28 @@
+package lista_polimorfismo;
+
+public class Retangulo extends FormaGeometrica {
+	private double lado;
+
+	public double getLado() {
+		return lado;
+	}
+
+	public void setLado(double lado) {
+		this.lado = lado;
+	}
+
+	public Retangulo(String nome, double lado) {
+		super(nome);
+		this.lado = lado;
+	}
+
+	public Retangulo() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+	
+}

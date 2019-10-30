@@ -1,0 +1,32 @@
+package lista_Construtores;
+
+public class Ferramenta_Eletrica extends Ferramenta {
+
+	
+	private int rpm;
+	private int potencia;
+	private int tensao;
+	
+	public Ferramenta_Eletrica(String modelo, String fabricante, int rpm, int potencia, int tensao) {
+		super(modelo, fabricante);
+		this.rpm = rpm;
+		this.potencia = potencia;
+		this.tensao = tensao;
+	}
+	
+	public Ferramenta_Eletrica() {
+		super();
+	}
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+
+}

@@ -1,0 +1,20 @@
+package lista_Construtores;
+
+public class OficinaExecutavel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+        Furadeira f1 = new Furadeira("Bosch", "Bosch", 1.5, 2, 3000, 351, 220);
+        Lixadeira l1 = new Lixadeira("Treme-treme", "Bosch", 1.5, 3, 2000, 351, 110);
+        Serra S1 = new Serra("Tico-tico", "Bosch", 0.136, 2, 3500, 351, 220);
+        
+        
+        alicate
+        
+		
+	}
+
+}

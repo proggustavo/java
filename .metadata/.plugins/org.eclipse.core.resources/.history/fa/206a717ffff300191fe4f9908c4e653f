@@ -1,0 +1,31 @@
+package lista_polimorfismo;
+
+public class Circulo extends FormaGeometrica {
+	
+	private double raio;
+
+	public double getRaio() {
+		return raio;
+	}
+
+	public void setRaio(double raio) {
+		this.raio = raio;
+	}
+
+	public Circulo(String nome, double raio) {
+		super(nome);
+		this.raio = raio;
+	}
+
+	public Circulo() {
+		super();
+		
+	}
+	
+	
+
+	
+	
+	
+
+}

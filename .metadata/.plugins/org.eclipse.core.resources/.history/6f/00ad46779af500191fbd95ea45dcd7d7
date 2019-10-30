@@ -1,0 +1,10 @@
+package lista_polimorfismo;
+
+public abstract class Triangulo extends FormaGeometrica {
+
+	
+	public abstract double calcArea(); 
+	
+	public abstract double calcPerimetro();	
+	
+}

@@ -1,0 +1,45 @@
+package lista_polimorfismo;
+
+public class Losango extends FormaGeometrica {
+	
+	private double ladoA;
+	private double ladoB;
+	
+	
+	public Losango(String nome, double ladoA, double ladoB) {
+		super(nome);
+		this.ladoA = ladoA;
+		this.ladoB = ladoB;
+	}
+	
+	public Losango() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public Losango(String nome) {
+		super(nome);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public double getLadoA() {
+		return ladoA;
+	}
+	public void setLadoA(double ladoA) {
+		this.ladoA = ladoA;
+	}
+	public double getLadoB() {
+		return ladoB;
+	}
+	public void setLadoB(double ladoB) {
+		this.ladoB = ladoB;
+	}
+	
+	
+	
+
+}

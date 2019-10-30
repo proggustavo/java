@@ -1,0 +1,14 @@
+package lista_Construtores;
+
+public class OficinaExecutavel {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Furadeira f2 = new Furadeira();
+        Furadeira f1 = new Furadeira("Bosch", "Bosch", 1.5, 5, 3.000, 351, 220);
+		
+	}
+
+}

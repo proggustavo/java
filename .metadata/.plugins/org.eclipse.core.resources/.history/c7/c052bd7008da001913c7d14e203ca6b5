@@ -1,0 +1,12 @@
+package lista_Construtores;
+
+public class Alicate {
+	
+	private String modelo;
+	private String fabricante;
+	private String tipo;
+	private double tamanho;
+	
+	
+
+}

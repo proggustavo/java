@@ -1,0 +1,7 @@
+package lista_polimorfismo;
+
+public class Triangulo extends FormaGeomatrica {
+
+		
+	
+}

@@ -1,0 +1,24 @@
+package lista_Construtores;
+
+public class Martelo extends Ferramenta_Manual{
+	
+	
+	private String modelo;
+	private String fabricante;
+	private String tipo;
+	private double tamanho;
+	
+	public Martelo(String modelo, String fabricante, String tipo, double tamanho) {
+		super();
+		this.modelo = modelo;
+		this.fabricante = fabricante;
+		this.tipo = tipo;
+		this.tamanho = tamanho;
+	}
+	
+	public Martelo() {
+		super();
+	}
+	
+
+}

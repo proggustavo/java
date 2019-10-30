@@ -1,0 +1,40 @@
+package lista_polimorfismo;
+
+public abstract class Quadrado extends FormaGeometrica{
+	
+	private double lado;
+
+	public double getLado() {
+		return lado;
+	}
+
+	public void setLado(double lado) {
+		this.lado = lado;
+	}
+
+	public Quadrado(String nome, double lado) {
+		super(nome);
+		this.lado = lado;
+	}
+
+	public Quadrado() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double calcArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double calcPerimetro() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+	
+
+}

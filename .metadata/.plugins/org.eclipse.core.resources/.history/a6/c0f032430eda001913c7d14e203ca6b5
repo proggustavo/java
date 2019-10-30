@@ -1,0 +1,11 @@
+package lista_Construtores;
+
+public class Ferramenta_Eletrica {
+	
+	private String modelo;
+	private String fabricante;
+	private int rpm;
+	private int potencia;
+	private int tensao;
+
+}

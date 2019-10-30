@@ -1,0 +1,26 @@
+package lista_Construtores;
+
+public class Serra {
+	
+	
+	private String modelo;
+	private String fabricante;
+	private int rpm;
+	private int potencia;
+	private int tensao;
+	
+	public Serra(String modelo, String fabricante, int rpm, int potencia, int tensao) {
+		super();
+		this.modelo = modelo;
+		this.fabricante = fabricante;
+		this.rpm = rpm;
+		this.potencia = potencia;
+		this.tensao = tensao;
+	}
+	
+	public Serra() {
+		super();
+	}
+	
+
+}

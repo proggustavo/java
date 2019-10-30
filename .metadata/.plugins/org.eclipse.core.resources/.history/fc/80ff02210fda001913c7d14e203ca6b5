@@ -1,0 +1,21 @@
+package lista_Construtores;
+
+public class Ferramenta_Manual extends Ferramenta{
+	
+	
+	private String tipo;
+	private int tamanho;
+	
+	
+	public Ferramenta_Manual(String modelo, String fabricante, String tipo, int tamanho) {
+		super(modelo, fabricante);
+		this.tipo = tipo;
+		this.tamanho = tamanho;
+	}
+	public Ferramenta_Manual() {
+		super();
+	}
+	
+	
+
+}

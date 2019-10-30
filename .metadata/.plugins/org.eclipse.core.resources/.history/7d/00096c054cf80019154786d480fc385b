@@ -1,0 +1,12 @@
+package biblioteca;
+
+public class Revista extends Obra{
+
+	public Revista() {
+		super();
+		
+	}
+	
+	
+
+}
