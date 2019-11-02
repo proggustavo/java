@@ -631,3 +631,5 @@
 2019-11-01 08:55:59,037 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/SistemaAviso/src/main/resources
 2019-11-01 08:55:59,044 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-11-01 08:55:59,044 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/SistemaAviso/src/test/resources
+2019-11-02 11:39:34,738 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-11-02 11:39:46,190 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.

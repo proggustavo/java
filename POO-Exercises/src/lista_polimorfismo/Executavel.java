@@ -17,7 +17,6 @@ public class Executavel {
 		
 		for(int i = 0; i < formas.length; i ++) {
 			int tipo = valor.nextInt(7);
-			
 				switch(tipo) {
 					case 0: {
 						Quadrado quadrado = new Quadrado("Quadrado", valor.nextInt(9) + 1);

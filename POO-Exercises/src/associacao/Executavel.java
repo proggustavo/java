@@ -97,7 +97,7 @@ public class Executavel {
 		
 		// Contato dos passageiros de um determinado bairro
 		
-		emp.recuperarContatoPorBairro("Barreiros");
+		emp.recuperarContatoPorBairro("Capoeiras");
 		
 		// Informações do motorista que tem o maior salário
 		

@@ -8,7 +8,6 @@ public class Livro extends Obra{
 		
 	}
 
-
 	public Livro() {
 		super();
 		

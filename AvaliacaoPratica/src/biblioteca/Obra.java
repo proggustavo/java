@@ -1,6 +1,6 @@
 package biblioteca;
 
-public class Obra {
+public abstract class Obra {
 	
 	private String titulo;
 	private int edicao;
@@ -50,8 +50,4 @@ public class Obra {
 	}
 	
 	
-	
-	
-	
-
 }

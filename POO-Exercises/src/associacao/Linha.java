@@ -49,7 +49,7 @@ public class Linha {
 
 	public void recuperarContatoPassageiros(String bairro) {
 		for(int i = 0; i < this.getPassageiros().length; i ++) {
-			if(this.getPassageiros()[i].getEndereco().getBairro().equalsIgnoreCase("Barreiros")) {
+			if(this.getPassageiros()[i].getEndereco().getBairro().equalsIgnoreCase(bairro)) {
 				System.out.println("Nome: " + this.getPassageiros()[i].getNome());
 				System.out.println("Contato: " + this.getPassageiros()[i].getContato());
 			}

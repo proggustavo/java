@@ -41,8 +41,7 @@ public class Autor {
 		this.enderecoAutor = enderecoAutor;
 	}
 	
-	
-	
+
 	
 
 }
