@@ -44,10 +44,8 @@ public class Biblioteca {
 				obraMaisAntiga = this.getObra()[i];
 			}
 		}
-		System.out.println("A obra mais nova é: " + obraMaisAntiga.getTitulo());
-		System.out.println("Edição: " + obraMaisAntiga.getEdicao());
-		System.out.println("Ano:  " + obraMaisAntiga.getAno());
-		System.out.println("Escrito: " + obraMaisAntiga.getEscritor().getNome());
+		
+		System.out.println("A obra mais antiga é: " + obraMaisAntiga);
 		
 	}
 	
@@ -60,9 +58,8 @@ public class Biblioteca {
 			}
 		}
 		System.out.println("Autor mais novo: ");
-		System.out.println("Nome: " + autorMaisNovo.getNome());
-		System.out.println("Idade: " + autorMaisNovo.getIdade());
-		System.out.println("Endereço: " + autorMaisNovo.getEnderecoAutor().getCidade());
+		System.out.println(autorMaisNovo);
+		
 		
 	}
 	
@@ -72,12 +69,8 @@ public class Biblioteca {
 		for(int i = 0; i < this.getObra().length; i ++) {
 			if(this.getObra()[i].getEscritor().getNome().equalsIgnoreCase(nome) && cont == 0) {
 				endAutor = this.obra[i].getEscritor().getEnderecoAutor();
-				System.out.println("Endreço autor " + nome );
-				System.out.println("Rua: " + endAutor.getRua());
-				System.out.println("Número: " + endAutor.getNumero());
-				System.out.println("Bairro: " + endAutor.getBairro());
-				System.out.println("Cidade: " + endAutor.getCidade());
-				System.out.println("Estado: " + endAutor.getEstado());
+				System.out.println(this.getObra()[i].getEscritor().getNome());
+				System.out.println(endAutor);
 				cont++;
 			}
 	

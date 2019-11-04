@@ -12,6 +12,17 @@ public class Livro extends Obra{
 		super();
 		
 	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "\nTitulo: " + this.getTitulo() + 
+			   "\nEdição: " + this.getEdicao() + 
+			   "\nAno: " + this.getAno() + 
+			   "\nEscritor: " + this.getEscritor().getNome();
+	}
+	
+	
 		
 	
 

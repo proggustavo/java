@@ -50,4 +50,7 @@ public abstract class Obra {
 	}
 	
 	
+	public abstract String toString();
+	
+	
 }

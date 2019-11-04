@@ -41,6 +41,12 @@ public class Autor {
 		this.enderecoAutor = enderecoAutor;
 	}
 	
+	public String toString() {
+		return "\nNome autor: " + this.getNome() +
+			   "\nIdade: " + this.getIdade() +
+			   this.getEnderecoAutor();
+	}
+	
 
 	
 
