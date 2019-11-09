@@ -11,6 +11,15 @@ public class Aluno extends Pessoa{
 		super();
 		
 	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return  "\nNome: " + this.getNome() +
+				"\nIdade: " + this.getIdade();
+	}
+	
+	
 	
 	
 	

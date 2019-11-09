@@ -52,6 +52,13 @@ public class Endereco {
 		this.estado = estado;
 	}
 	
+	public String toString() {
+		return "\nEstado: " + this.getEstado() +
+			   "\nCidade: " + this.getCidade() +
+			   "\nBairro: " + this.getBairro() +
+			   "\nRua: " + this.getRua() +
+			   "\nNumero: " + this.getNumero();
+	}
 	
 	
 	

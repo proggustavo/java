@@ -73,11 +73,7 @@ public class Executavel {
 		
 		System.out.println("-------------- Alunas por Cidade ---------");
 		escola.alunasPorCidade("São José");
-		
-		
-		
-		
-		
+				
 
 	}
 

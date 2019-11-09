@@ -70,15 +70,10 @@ public class Escola {
 			if(this.getTurmas()[i].getRegente().getNome().equalsIgnoreCase(nome)) {
 				enderecoRegente = this.getTurmas()[i].getRegente().getEndereco();
 			}
-		
 		}
 		
 		System.out.println("Regente " + nome);
-		System.out.println("Rua: " + enderecoRegente.getRua());
-		System.out.println("Numero: " + enderecoRegente.getNumero());
-		System.out.println("Bairro: " + enderecoRegente.getBairro());
-		System.out.println("Cidade: " + enderecoRegente.getCidade());
-		System.out.println("Estado: " + enderecoRegente.getEstado());
+		System.out.println(enderecoRegente);
 	}
 	
 	public void alunasPorSerie(int serie) {
@@ -90,8 +85,7 @@ public class Escola {
 				}
 				
 			}
-		}
-		
+		}		
 	}
 	
 	public void regenteMaisNovo() {
