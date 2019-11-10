@@ -1,8 +1,6 @@
-package model;
+package model.dao;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
-import model.dao.AlunoDAO;
 
 public class Aluno {
 	
@@ -20,7 +18,6 @@ public class Aluno {
 	private double mediaFinal;
 	private String situacao;
 	
-
 	public Aluno(String nome, String sobrenome, int matricula, String nivel, double np1, double np2, double nt1,
 			double nt2, int pesoProva, int pesoTrabalho, double mediaFinal, String situacao) {
 		super();
@@ -38,9 +35,11 @@ public class Aluno {
 		this.situacao = situacao;
 	}
 
+
+
 	public Aluno() {
 		super();
-		
+	
 	}
 
 	public String getNome() {
@@ -138,7 +137,7 @@ public class Aluno {
 	public void setSituacao(String situacao) {
 		this.situacao = situacao;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Aluno [nome=" + nome + ", sobrenome=" + sobrenome + ", matricula=" + matricula + ", nivel=" + nivel
@@ -146,14 +145,12 @@ public class Aluno {
 				+ ", pesoTrabalho=" + pesoTrabalho + ", mediaFinal=" + mediaFinal + ", situacao=" + situacao + "]";
 	}
 	
-	
-
 	public void cadastrarAluno() {
 		Scanner teclado = new Scanner(System.in);
 		
 		Aluno a = new Aluno();
 		AlunoDAO dao = new AlunoDAO();
-		DecimalFormat df = new DecimalFormat("0.00");
+		
 		
 		
 		System.out.println("------------------ Cadastro Aluno ------------------");
@@ -168,8 +165,8 @@ public class Aluno {
 		System.out.print("Digite a matrícula: ");
 			a.setMatricula(Integer.parseInt(teclado.nextLine().trim()));
 		
-		System.out.print("Digite o nível: ");
-			a.setNivel(teclado.nextLine().trim());
+		System.out.print("Digite o nível (1 - BÁSICO , 2 - INTERMEDIÁRIO, 3- AVANÇADO): ");
+			a.setNivel(a.verificarNivel(teclado.nextLine().trim()));
 			
 		System.out.println("------------------ Cadastro notas ------------------");
 			
@@ -186,64 +183,97 @@ public class Aluno {
 			a.setNt2(a.formatarNotas(teclado.nextLine().trim()));
 			
 		System.out.print("Digite o peso das provas (Porcentagem): ");
-			a.setPesoProva(Integer.parseInt(teclado.nextLine().trim()));
+			a.setPesoProva(a.verificarPeso(teclado.nextLine().trim()));
 			
 		System.out.print("Digite o peso dos trabalhos (Porcentagem): ");
-			a.setPesoTrabalho(Integer.parseInt(teclado.nextLine().trim()));
-		
-		
+			a.setPesoTrabalho(a.verificarPeso(teclado.nextLine().trim()));
 			
-		System.out.println("A media do aluno foi: " + a.calcularMedia());
-		
-		
-		System.out.println("Situação do aluno: " + a.calcularSituacao());
-		
-		
-		System.out.println(a);
 			
+			// ----- Verificações 
 		
+				if(a.getNome().isEmpty() || a.getSobrenome().isEmpty() || (a.getNp1() == -1) || 
+					(a.getNp2() == -1) || (a.getNt1() == - 1) || (a.getNt2() == -1) || (a.getNivel().isEmpty())){
+					
+							System.out.println("Aluno não cadastrado, preencha todos os campos.");
+							
+					}else if(a.getNivel().equalsIgnoreCase("INVALIDO")){
+							
+							System.out.println("O nível preenchido é inválido.");
+						
+					}else if(dao.pesquisarMatricula(a)){
+						
+							System.out.println("Aluno não cadastrado, a matrícula já existe!");
+						
+					}else if((a.getPesoProva() + a.getPesoTrabalho()) != 100.0) {
+						
+							System.out.println("Aluno não cadastrado, a porcetagem total é inválida!");
+					}
+					else{
+						
+						
+						System.out.println("------------------ Resultado ------------------");
+						System.out.println("A media do aluno foi: " + a.calcularMedia(this.getPesoProva(), this.getPesoTrabalho()));				
+						System.out.println("Situação do aluno: " + a.calcularSituacao());
+						
+						dao.create(a);
+						
+					}
 		
-		if(a.getNome().isEmpty() || a.getSobrenome().isEmpty() ) {
-				System.out.println("Aluno não cadastrado, preencha todos os campos.");
-			}else if(dao.pesquisarMatricula(a.getMatricula())){
-				System.out.println("Aluno não cadastrado, a matrícula já existe!");
-			}else if(this.mediaFinal == -1.0) {
-				System.out.println("Aluno não cadastrado, a porcetagem total é inválida!");
-			}
-			else{
-				dao.create(a);
-				System.out.println(this.getMediaFinal());
-			}
-		
-		
-		
+				
 		}
 	
 		private double formatarNotas(String numero) {
 			
-			DecimalFormat df = new DecimalFormat("0.00");
-			
+			if(numero.isEmpty()) {
+				numero = "-1";
+				return Double.parseDouble(numero);
+			}else {
 			numero = numero.replaceAll(",", ".");
-						
-			return Double.parseDouble(numero);
+			}			
+				return Double.parseDouble(numero);
 			
 		}
-	
-	
-
-		private double calcularMedia() {
-			this.mediaFinal = -1.0;
+		
+		private String verificarNivel(String nivel) {
 			
-			if((this.getPesoProva() + this.getPesoTrabalho()) <= 100) {
-			this.setMediaFinal(((this.np1 + this.np2) * (this.pesoProva)) / 2 + ((this.np1 + this.np2) * (this.pesoTrabalho)) / 2);
-			System.out.println(this.getPesoProva() + this.getPesoTrabalho());
+			if(nivel.isEmpty()) {
+				return "";
+			}if(nivel.equalsIgnoreCase("BÁSICO") || nivel.equalsIgnoreCase("BASICO") || nivel.equalsIgnoreCase("1")) {
+				return "BASICO";
+			}if(nivel.equalsIgnoreCase("INTERMEDIARIO") || nivel.equalsIgnoreCase("INTERMEDIÁRIO") || nivel.equalsIgnoreCase("2")) {
+				return "INTERMEDIARIO";
 			}
-			return this.mediaFinal;
+			if(nivel.equalsIgnoreCase("AVANCADO") || nivel.equalsIgnoreCase("AVANÇADO") || nivel.equalsIgnoreCase("3")) {
+				return "AVANCADO";
+			}else{
+				return "INVALIDO";
+			}
+		}
+		
+		
+		
+		private int verificarPeso(String peso){
+			
+			if(peso.isEmpty()) {
+				 peso = "-1";
+				 return Integer.parseInt(peso);
+			}else {
+				return Integer.parseInt(peso);
+			}
+		}
+		
+		private double calcularMedia(int pesoProva, int pesoTrabalho) {
+						
+			this.setMediaFinal((( ((this.getNp1() + this.getNp2()) * (this.getPesoProva())) / 2) + ((this.getNt1() + this.getNt2()) * (this.getPesoTrabalho())) / 2) / 100);
+			
+			
+			return this.getMediaFinal();
 			
 			
 		}
 		
 		private String calcularSituacao() {
+			
 			if(this.mediaFinal >= 7) {
 				this.situacao = "Aprovado";
 			}else if(this.mediaFinal >= 4.5) {

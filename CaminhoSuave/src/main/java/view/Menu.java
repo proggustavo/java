@@ -2,7 +2,7 @@ package view;
 
 import java.util.Scanner;
 
-import model.Aluno;
+import model.dao.Aluno;
 
 public class Menu {
 	
