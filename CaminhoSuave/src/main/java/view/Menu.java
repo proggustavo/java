@@ -17,6 +17,7 @@ public class Menu {
 				case CADASTRAR_ALUNO: {
 						Aluno a = new Aluno();
 						a.cadastrarAluno();
+						
 				break;		
 				}
 				default: {

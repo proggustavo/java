@@ -5756,3 +5756,121 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2019-11-11 11:13:28,356 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
 2019-11-11 11:13:28,357 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-11-11 11:13:28,357 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 11:23:13,347 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:23:13,347 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 11:23:13,348 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:23:13,348 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 11:23:21,270 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:23:21,271 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 11:23:21,275 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:23:21,276 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 11:24:05,503 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:24:05,503 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 11:24:05,504 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:24:05,505 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 11:24:10,279 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:24:10,279 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 11:24:10,281 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:24:10,281 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 11:26:08,590 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:26:08,590 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 11:26:08,591 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:26:08,592 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 11:28:07,972 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:28:07,972 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 11:28:07,974 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:28:07,974 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 11:41:54,280 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:41:54,282 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/SistemaAviso/src/main/resources
+2019-11-11 11:41:54,284 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 11:41:54,284 [Worker-77: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/SistemaAviso/src/test/resources
+2019-11-11 12:00:39,671 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:00:39,672 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 12:00:39,673 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:00:39,673 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 12:00:57,956 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:00:57,956 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 12:00:57,958 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:00:57,958 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 12:01:00,727 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:01:00,728 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 12:01:00,730 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:01:00,731 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 12:01:58,835 [Worker-86: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/pom.xml
+2019-11-11 12:02:00,477 [Worker-86: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Desafio:CaminhoSuave2:0.0.1-SNAPSHOT @ /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/pom.xml.
+2019-11-11 12:02:00,616 [Worker-86: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CaminhoSuave2/src/main/java
+2019-11-11 12:02:00,622 [Worker-86: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CaminhoSuave2/src/test/java
+2019-11-11 12:02:00,817 [Worker-86: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2019-11-11 12:02:01,567 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:02:01,568 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/main/resources
+2019-11-11 12:02:01,576 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:02:01,576 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/test/resources
+2019-11-11 12:02:17,464 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:02:17,464 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/main/resources
+2019-11-11 12:02:17,466 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:02:17,466 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/test/resources
+2019-11-11 12:02:49,974 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:02:49,975 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/main/resources
+2019-11-11 12:02:49,976 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:02:49,977 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/test/resources
+2019-11-11 12:02:57,246 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:02:57,246 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/main/resources
+2019-11-11 12:02:57,247 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:02:57,247 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/test/resources
+2019-11-11 12:03:05,367 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:03:05,368 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/main/resources
+2019-11-11 12:03:05,369 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:03:05,369 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/test/resources
+2019-11-11 12:03:12,995 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:03:12,995 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/main/resources
+2019-11-11 12:03:12,997 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:03:12,997 [Worker-86: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/test/resources
+2019-11-11 12:03:42,065 [Worker-91: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Desafio:CaminhoSuave2:0.0.1-SNAPSHOT @ /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/pom.xml.
+2019-11-11 12:03:42,135 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:03:42,135 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/main/resources
+2019-11-11 12:03:42,136 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:03:42,136 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/test/resources
+2019-11-11 12:03:43,364 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:03:43,365 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/main/resources
+2019-11-11 12:03:43,366 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:03:43,366 [Worker-91: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/test/resources
+2019-11-11 12:06:09,474 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:06:09,474 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/main/resources
+2019-11-11 12:06:09,513 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:06:09,513 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/test/resources
+2019-11-11 12:08:38,160 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:08:38,160 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/main/resources
+2019-11-11 12:08:38,162 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:08:38,162 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave2/src/test/resources
+2019-11-11 12:09:50,049 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:09:50,049 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 12:09:50,050 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:09:50,050 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 12:09:52,935 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:09:52,935 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 12:09:52,936 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:09:52,936 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 12:13:19,415 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:13:19,415 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 12:13:19,416 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:13:19,416 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 12:13:53,184 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:13:53,185 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 12:13:53,185 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:13:53,186 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 12:15:29,566 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:15:29,566 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 12:15:29,567 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:15:29,567 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 12:15:31,915 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:15:31,915 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 12:15:31,916 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:15:31,916 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 12:16:01,550 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:16:01,550 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 12:16:01,553 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:16:01,554 [Worker-99: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources
+2019-11-11 12:18:28,666 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:18:28,666 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/main/resources
+2019-11-11 12:18:28,668 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-11 12:18:28,668 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gustavo/Documentos/Programming/Senac/java/CaminhoSuave/src/test/resources

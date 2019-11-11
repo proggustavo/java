@@ -2,7 +2,7 @@ package view;
 
 import java.util.Scanner;
 
-import model.AlunoDAO;
+import model.dao.AlunoDAO;
 
 public class Aluno {
 	
@@ -208,7 +208,7 @@ public class Aluno {
 						
 					}else if((a.getPesoProva() + a.getPesoTrabalho()) != 1.0) {
 						
-							System.out.println("Aluno não cadastrado, a porcetagem total é inválida!");
+							System.out.println("Aluno não cadastrado, o peso total é inválido!");
 					}
 					else{
 						
