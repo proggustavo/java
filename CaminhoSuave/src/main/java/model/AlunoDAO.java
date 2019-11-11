@@ -1,10 +1,12 @@
-package model.dao;
+package model;
 
 import java.sql.Connection;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import view.Aluno;
 
 public class AlunoDAO {
 
@@ -26,8 +28,8 @@ public class AlunoDAO {
 			stmt.setDouble(6, a.getNp2());
 			stmt.setDouble(7, a.getNt1());
 			stmt.setDouble(8, a.getNt2());
-			stmt.setInt(9, a.getPesoProva());
-			stmt.setInt(10, a.getPesoTrabalho());
+			stmt.setDouble(9, a.getPesoProva());
+			stmt.setDouble(10, a.getPesoTrabalho());
 			stmt.setDouble(11, a.getMediaFinal());
 			stmt.setString(12, a.getSituacao().toUpperCase());
 			

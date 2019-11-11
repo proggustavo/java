@@ -2,8 +2,6 @@ package view;
 
 import java.util.Scanner;
 
-import model.dao.Aluno;
-
 public class Menu {
 	
 	Scanner teclado = new Scanner(System.in);

@@ -11,8 +11,7 @@ public class Executavel {
 		
 		System.out.println("Encerrado!");
 			
-			
-		
+				
 	}
 
 }

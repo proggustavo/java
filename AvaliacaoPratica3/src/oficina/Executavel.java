@@ -13,7 +13,7 @@ public class Executavel {
 		Contato c4 = new Contato("4444-4444", "bia@gmail.com");
 		Contato c5 = new Contato("5555-5555", "cintia@gmail.com");
 		Contato c6 = new Contato("6666-6666", "miguel@gmail.com");
-		Contato c7 s= new Contato("9999-9999", "oficina@gmail.com");
+		Contato c7 = new Contato("9999-9999", "oficina@gmail.com");
 		
 		// Pessoas
 		
@@ -24,11 +24,11 @@ public class Executavel {
 		Pessoa p5 = new Pessoa("Cintia", 22, "58134890518", c5);
 		Pessoa p6 = new Pessoa("Miguel", 42, "01954239986", c6);
 		
-		/
+		
 		
 		// Oficina
 		
-		Oficina oficina = new Oficina("Senac Oficina Mecânica", );
+		//Oficina oficina = new Oficina("Senac Oficina Mecânica", );
 
 	}
 
