@@ -165,7 +165,7 @@ public class Aluno {
 			a.setSobrenome(teclado.nextLine().toUpperCase().trim());
 			
 		System.out.print("Digite a matrícula: ");
-			a.setMatricula(Integer.parseInt(teclado.nextLine().trim()));
+			a.setMatricula(a.formatarInteiros(teclado.nextLine().trim()));
 		
 		System.out.print("Digite o nível (1 - BÁSICO , 2 - INTERMEDIÁRIO, 3- AVANÇADO): ");
 			a.setNivel(a.verificarNivel(teclado.nextLine().trim()));
@@ -193,7 +193,7 @@ public class Aluno {
 			
 			// ----- Verificações 
 		
-				if(a.getNome().isEmpty() || a.getSobrenome().isEmpty() || (a.getNp1() == -1) || 
+				if(a.getNome().isEmpty() || a.getSobrenome().isEmpty() || (a.getNp1() == -1) || (a.getMatricula() == -1) ||
 					(a.getNp2() == -1) || (a.getNt1() == - 1) || (a.getNt2() == -1) || (a.getNivel().isEmpty())){
 					
 							System.out.println("Aluno não cadastrado, preencha todos os campos.");
@@ -229,11 +229,22 @@ public class Aluno {
 		
 		if(numero.isEmpty()) {
 			numero = "-1";
-			return Double.parseDouble(numero);
+			
 		}else {
 		numero = numero.replaceAll(",", ".");
 		}			
 			return Double.parseDouble(numero);
+		
+	}
+	
+	private int formatarInteiros(String numero) {
+		
+		
+		if(numero.isEmpty()) {
+			numero = "-1";
+			
+		}
+			return Integer.parseInt(numero);
 		
 	}
 	
