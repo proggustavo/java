@@ -77,8 +77,10 @@ public class AlunoDAO {
 			e.printStackTrace();
 			return false;
 		}finally {
+			Banco.closeResultSet(rs);
+			Banco.closePreparedStatement(stmt);
 			Banco.closeConnection(conn);
-			Banco.closeStatement(stmt);
+			
 		}
 		
 		

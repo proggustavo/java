@@ -8,6 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 
+
 public class Banco {
 
 	private static final String DRIVER = "com.mysql.jdbc.Driver";
